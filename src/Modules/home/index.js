@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div className={"homeContainer"}>
         <h1 className={"h1tag"}>{"Helolo from Home"}</h1>
-        <h2 id={"h1tag"}>{"Hello from home"}</h2>
+        <h2 id={"h2tag"}>{"Hello from home"}</h2>
       </div>
     );
   }
