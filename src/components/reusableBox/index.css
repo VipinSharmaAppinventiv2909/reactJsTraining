@@ -1,0 +1,57 @@
+  <h3>{"heading"}</h3>
+        <button>{"buttonTitle"}</button>
+      </div>
+    );
+  }
+  render() {
+    return (
+      <div className={"homeContainer"}>
+        <h1>{"Home page"}</h1>
+        {this.renderBox(
+          "First Contaner",
+          "Click me first",
+          "",
+          { backgroundColor: "blue" },
+          "red"
+        )}
+        {this.renderBox("second container", "click me second")}
+        {this.renderBox("third container", "click me third")}
+        <div className={"itemContainer"}>
+          <h3>{"First container"}</h3>
+          <button>{"click me"}</button>
+        </div>
+
+
+
+
+
+
+
+
+
+        renderBox(heading, buttonTitle, extaXClass = "", styleObj = {}, color = "") {
+            return (
+              <div className={"itemContainer"}>
+                <h3>{"heading"}</h3>
+                <button>{"buttonTitle"}</button>
+              </div>
+            );
+          }
+          render() {
+            return (
+              <div className={"homeContainer"}>
+                <h1>{"Home page"}</h1>
+                {this.renderBox(
+                  "First Contaner",
+                  "Click me first",
+                  "",
+                  { backgroundColor: "blue" },
+                  "red"
+                )}
+                {this.renderBox("second container", "click me second")}
+                {this.renderBox("third container", "click me third")}
+                <div className={"itemContainer"}>
+                  <h3>{"First container"}</h3>
+                  <button>{"click me"}</button>
+                </div>
+              </div>

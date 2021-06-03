@@ -1,12 +1,13 @@
 import React from "react";
-import Assignment1 from "./Modules/Assignment1";
+import Home from "./Modules/home";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Assignment1 />
+        <Home />
       </div>
     );
   }
+  
 }
 export default App;
