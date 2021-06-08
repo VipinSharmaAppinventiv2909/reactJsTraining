@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 300px;
+  margin-top: 70px;
+}
+.main_container {
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  object-fit: contain;
+  border: solid 1px rgba(99, 118, 150, 0.4);
+  border-radius: 200px;
+}
+.main_container .setImages {
+  align-items: center;
+  text-align: center;
+  margin-top: -14px;
+  margin-left: -17px;
+}
+.settingText {
+  margin-left: 80px;
+}
