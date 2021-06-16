@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-// import App from './App';
-import Assignment6 from "./Modules/Assignment6";
+import Assignment7 from "./Modules/Assignment7";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Assignment6 />
+    <Assignment7 />
   </React.StrictMode>,
   document.getElementById("root")
 );
