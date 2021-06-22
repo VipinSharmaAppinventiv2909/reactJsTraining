@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Assignment7 from "./Modules/Assignment7";
+import Assignment9 from "./Modules/Assignment9";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Assignment7 />
+    <Assignment9 />
   </React.StrictMode>,
   document.getElementById("root")
 );
