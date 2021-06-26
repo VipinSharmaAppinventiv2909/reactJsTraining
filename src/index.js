@@ -1,11 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Assignment9 from "./Modules/Assignment9";
+import Assignment11 from "./Modules/Assignment11";
 import reportWebVitals from "./reportWebVitals";
+import store from "./Modules/Assignment11/components/store";
+import { Provider } from "react-redux";
+// store.subscribe() =>  console.log(store.getState());
 
 ReactDOM.render(
   <React.StrictMode>
-    <Assignment9 />
+    <Provider store={store}>
+      <Assignment11 />
+    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );
